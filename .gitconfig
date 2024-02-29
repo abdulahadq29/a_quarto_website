@@ -1,0 +1,9 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Abdul Ahad Qureshi
+	email = ahad.qureshi@mail.utoronto.ca
+	mail = ahad.qureshi@mail.utoronto.ca
